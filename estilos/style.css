@@ -72,9 +72,27 @@ form > div.campo{
     margin: 5px 0px;
 }
 
-div.campo > label{
-    
+div.campo input{
+    background-color: #ca86b2;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 34.5px);
+    border-radius: 10px;
+    padding: 4px;
+    transform: translateY(-12px);
 }
+
+div.campo > input:focus{
+    background-color: white;
+}
+
+.material-symbols-outlined {  /* Essa é a classe do ícone que veio do google */
+    color: white;
+    font-size: 2em;
+    width: 30px;
+    padding: 5px;
+}
+
 
 #enviar{
     display: block;
