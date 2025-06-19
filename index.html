@@ -20,19 +20,19 @@
                 <h1>Login</h1>
                 <p>Seja bem vindo</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <div id="campo">
+                    <div class="campo">
                         <label for="ilogin">
                             <span class="material-symbols-outlined">account_box
                             </span>
                         </label>    
                         <input type="email" name="login" id="ilogin" placeholder="Seu email" autocomplete="email" required>
                     </div>
-                    <div id="senha">
+                    <div class="campo">
                     <label for="isenha"><span class="material-symbols-outlined">key</span></label>
                     <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8">
                 </div>
-                <button type="submit">Entrar</button><br>
-                <button>Esqueci a senha</button>
+                <button id="enviar" type="submit">Entrar</button>
+                <button id="esqueci">Esqueci a senha</button>
                 </form>
             </div>
         </section>

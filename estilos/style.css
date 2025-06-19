@@ -64,3 +64,53 @@ div#formulario > p{
     font-size: 0.8em;
     text-align: center;
 }
+
+form > div.campo{
+    background-color: #0A3955;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    
+}
+
+#enviar{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    background-color: #0f557ecb;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    transition: 0.3s;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#enviar:hover{
+    background-color: #1476afcb;
+    transform: translateY(-3px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#esqueci{
+    padding: 4px;
+    font-size: .8em;
+    width: 100%;
+    background-color: #0f557ecb;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#esqueci:hover{
+    background-color: #1476afcb;
+    transform: translateY(-3px);
+    transition: 0.3s;
+    cursor: pointer;
+}
